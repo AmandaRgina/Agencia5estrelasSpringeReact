@@ -1,0 +1,117 @@
+.scrolly {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  .scrolly {
+    max-width: 98vw;
+    justify-content: center;
+  
+ 
+  }
+  .scrolly .carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    
+  }
+  
+  .scrolly .carousel::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scrolly .carousel .item {
+    background-color: rgb(5, 22, 39);
+    margin-left: 40px;
+
+    height: 300px;
+    width: 240px;
+    border-radius: 16px;
+    flex: none;
+  }
+  
+  .scrolly .carousel .item img {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 70px;
+    display: flex;
+    margin:1.2rem;
+    margin-top: 1.7rem;
+   
+  }
+  
+  .scrolly .carousel .item .price {
+    height: 70px;
+    display: flex;
+
+
+  }
+  
+ 
+  
+  
+  
+  
+
+  .scrolly .carousel .item span {
+  
+    text-align: center;
+    color: #1e1e1e;
+    margin: 20px;
+    border-radius: 10px;
+  }
+
+  .scrolly .buttons {
+    width: 100%;
+    text-align: center;
+    
+  }
+  .scrolly .buttons button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    
+  }
+
+  .scrolly .buttons button:first-child img {
+    transform: rotate(180deg);
+  }
+  
+  .scrolly .buttons button img {
+    height: 1.5rem;
+   
+
+  }
+
+  .scrolly .buttons button {
+    height: 3rem;
+    width: 3rem;
+    background-image:linear-gradient(to bottom right, red, yellow);
+    border-radius: 25px;
+    margin-left: 2rem;
+    
+
+  }
+
+  .scrolly .buttons button {
+  
+    
+    position: relative;
+    left: 27%;
+    margin-bottom: 20px;
+    top: -60px;
+
+  }
+
+  .scrolly h1 {
+
+    
+    padding-left: 13.5rem;
+    justify-content: center;
+
+
+  }
+
+  
